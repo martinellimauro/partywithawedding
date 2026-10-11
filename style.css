@@ -2,7 +2,7 @@
   --background: #f2f2e7;
   --text: #211f1b;
   --muted: #6f675d;
-  --gold: #c99a3f;
+  --gold: #fecb09;
   --gold-soft: #d8b66d;
   --line: #e8dcc8;
 }
@@ -191,4 +191,17 @@ iframe {
 
 p + ul {
   margin-top: 0;
+}
+
+/* Regola comune a tutti i disegni */
+.disegno {
+  display: block;
+  height: auto;
+}
+
+/* Posizione e dimensione del solo uccellino */
+.fiore_principale {
+  width: 100px;
+  align-self: center;
+  margin-top: 50px;
 }

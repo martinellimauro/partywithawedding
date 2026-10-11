@@ -3,8 +3,8 @@
   --text: #211f1b;
   --muted: #6f675d;
   --gold: #fecb09;
-  --gold-soft: #d8b66d;
-  --line: #e8dcc8;
+  --gold-soft: #437444;
+  --line: #437444;
 }
 
 body {
@@ -32,7 +32,7 @@ main {
 }
 
 .language-switch a {
-  color: var(--gold);
+  color: var(--gold-soft);
   text-decoration: none;
   border: 1px solid var(--gold-soft);
   padding: 10px 14px;
@@ -100,7 +100,7 @@ a.button {
   display: inline-block;
   margin-top: 10px;
   padding: 11px 18px;
-  color: var(--gold);
+  color: var(--gold-soft);
   border: 1px solid var(--gold-soft);
   text-decoration: none;
   background: transparent;
